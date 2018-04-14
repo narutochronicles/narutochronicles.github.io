@@ -1,0 +1,48 @@
+#begin{
+	background: url(../images/konoha.jpg) fixed center center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+#journey{
+	    background-image: linear-gradient(to top, rgba(252, 182, 159, 1) 0%, rgba(255, 236, 210, 0.5) 100%);
+	    /*background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);*/
+	    background-size: cover;
+	    height: 100vh;
+}
+
+/*#journey table{
+	height: 100vh;
+	width: 100%;
+    text-align: center;
+}*/
+
+#journey h1{
+	font-size: 7rem;	
+}
+
+#journey .he{
+	padding-top: 15rem;
+	padding-bottom: 1rem;
+	background-image: linear-gradient(to right, #ff9a9e 0%, #fad0c4 99%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*-webkit-text-fill-color: white;  Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+#journey h1.hd, #journey h1.ht{
+	font-size: 5rem;
+	text-shadow: 2px 2px 2px #333;
+}
+
+#journey .hd{
+	position: relative;
+}
+
+#journey .ht{
+    position: relative;
+    top: -10.5rem;
+    left: -5rem;
+}
